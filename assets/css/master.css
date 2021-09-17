@@ -134,7 +134,7 @@
     .nav-link3 {
         font-family: 'Bebas Neue', cursive;
         font-size: 14px;
-        background-color: green;
+        background-color: lawngreen;
         padding: 8px 10px;
         border-radius: 6px;
         text-decoration: none;
@@ -178,7 +178,7 @@
     .header-link {
         font-family: 'Bebas Neue', cursive;
         font-size: 20px;
-        background-color: green;
+        background-color: lawngreen;
         padding: 20px 50px;
         border-radius: 6px;
         text-decoration: none;
@@ -188,4 +188,103 @@
         top: 65%;
         left: 50px;
         transform: translate(-50 -50);
+    }
+    /* main */
+    
+    .main-section {
+        width: 100%;
+        background-color: rgb(192, 192, 192);
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    /* main-section-text */
+    
+    .main-section-text {
+        text-align: center;
+        vertical-align: middle;
+        font-size: 26px;
+    }
+    
+    .main-section-text2 {
+        color: grey;
+        text-align: center;
+        vertical-align: middle;
+        font-size: 20px;
+        padding-top: 10px;
+    }
+    /* main-container-article*/
+    
+    .container-article {
+        width: 100%;
+        background-color: hotpink;
+        border-bottom: solid grey 2px;
+        padding-bottom: 20px;
+    }
+    /* main-article1 */
+    
+    .article1 {
+        width: 30%;
+        background-color: white;
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 4%;
+    }
+    
+    .img-article1 {
+        background-color: white;
+        width: 35%;
+        margin-top: 10px;
+        margin-left: 120px;
+    }
+    
+    .text-article1 {
+        margin-top: 20px;
+        color: lawngreen;
+        font-size: 25px;
+        text-align: center;
+        vertical-align: middle;
+    }
+    
+    .hr-article {
+        background-color: grey;
+        width: 20%;
+        margin-top: 20px;
+        margin-left: 40%;
+    }
+    
+    .text-article2 {
+        margin-top: 20px;
+        color: gray;
+        text-align: center;
+        vertical-align: middle;
+    }
+    /*main-article2 */
+    
+    .article2 {
+        width: 30%;
+        background-color: white;
+        display: inline-block;
+        margin-top: 30px;
+    }
+    
+    .img-article2 {
+        background-color: white;
+        width: 35%;
+        margin-top: 10px;
+        margin-left: 120px;
+    }
+    /* main-article3 */
+    
+    .article3 {
+        width: 30%;
+        background-color: white;
+        display: inline-block;
+        margin-top: 30px;
+    }
+    
+    .img-article3 {
+        background-color: white;
+        width: 40%;
+        margin-top: 10px;
+        margin-left: 120px;
     }
