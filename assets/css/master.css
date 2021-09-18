@@ -191,9 +191,13 @@
     }
     /* main */
     
+    main {
+        position: relative;
+    }
+    
     .main-section {
         width: 100%;
-        background-color: rgb(192, 192, 192);
+        background-color: rgb(219, 216, 216);
         padding-top: 50px;
         padding-bottom: 50px;
     }
@@ -214,20 +218,17 @@
     }
     /* main-container-article*/
     
-    .container-article {
+    .main-container-article {
         width: 100%;
-        background-color: hotpink;
-        border-bottom: solid grey 2px;
-        padding-bottom: 20px;
+        background-color: white;
     }
     /* main-article1 */
     
     .article1 {
-        width: 30%;
+        width: 20%;
         background-color: white;
         display: inline-block;
-        margin-top: 30px;
-        margin-left: 4%;
+        margin-left: 12%;
     }
     
     .img-article1 {
@@ -264,27 +265,68 @@
         width: 30%;
         background-color: white;
         display: inline-block;
-        margin-top: 30px;
+        vertical-align: top;
+        margin-top: 15px;
     }
     
     .img-article2 {
         background-color: white;
-        width: 35%;
-        margin-top: 10px;
-        margin-left: 120px;
+        width: 40%;
+        height: 100%;
     }
     /* main-article3 */
     
     .article3 {
-        width: 30%;
+        width: 26%;
         background-color: white;
         display: inline-block;
-        margin-top: 30px;
+        vertical-align: top;
     }
     
     .img-article3 {
         background-color: white;
-        width: 40%;
+        width: 33%;
         margin-top: 10px;
         margin-left: 120px;
     }
+    /* main-hr */
+    
+    .hr {
+        height: 2px;
+        background-color: lightgray;
+        margin-top: 40px;
+    }
+    /* main-content */
+    
+    .container-content {
+        margin-left: 12%;
+        margin-top: 40px;
+    }
+    /* main-content-img */
+    
+    .container-content-img {
+        width: 35%;
+        display: inline-block;
+    }
+    /* main-content-text */
+    
+    .content-text {
+        display: inline-block;
+        margin-left: 80px;
+        vertical-align: top;
+    }
+    
+    .content-text h3 {
+        font-size: 38px;
+    }
+    
+    .content-text p {
+        color: gray;
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    
+    .content-text a {
+        color: blue;
+    }
+    /* footer */
